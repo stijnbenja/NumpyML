@@ -9,5 +9,7 @@ Current steps
 2. Add all loss functions
 4. Make current book dynamic with activations and losses
 
+<br>
+
 <img src="net.png">
 
