@@ -1,4 +1,4 @@
-# Creating a deep learningframe work using only numpy
+# Creating a deep learning framework using only numpy
 ### Trying to whitebox a blackbox neural net by building it from scratch
 <br>
 
