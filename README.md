@@ -11,4 +11,4 @@ Current steps (Okt 3, 14:15)
 
 <br>
 
-<img src="net.png">
+<img src="images/net.png">
