@@ -3,7 +3,7 @@
 
 <br>
 
-Current steps
+Current steps [okt]
 1. Add activation functions
 2. Add deactivation functions
 2. Add all loss functions
@@ -12,4 +12,3 @@ Current steps
 <br>
 
 <img src="net.png">
-

@@ -9,4 +9,3 @@ def sigmoid(x):
 def dSigmoid(x):
     return x * (1-sigmoid(x))
 
-
