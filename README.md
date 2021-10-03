@@ -1,2 +1,2 @@
-# Creating a deep learning frame work purely on numpy.
+# Creating a deep learningframe work using only numpy
 ### Trying to whitebox a blackbox by building it from scratch
