@@ -3,7 +3,7 @@
 
 <br>
 
-Current steps [okt]
+Current steps (okt 3, 14:15)
 1. Add activation functions
 2. Add deactivation functions
 2. Add all loss functions
