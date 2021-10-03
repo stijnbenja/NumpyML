@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def sigmoid(x):
     ceiling = 100
     big_out = np.where(x > ceiling, ceiling, x)
