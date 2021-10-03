@@ -18,7 +18,7 @@ def split(X, Y, train_size=0.8):
     x_test  = X[ : , cut_place: ]
     
     try:
-        y_train = Y[ : , :cut_place ] #Generates error if it is an single array
+        y_train = Y[ : , :cut_place ] #Generates error if it is a single array
         y_test  = Y[ : , cut_place: ]
     except:
         y_train = Y[:cut_place]
