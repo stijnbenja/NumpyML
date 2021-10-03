@@ -1,6 +1,5 @@
 import numpy as np
 
-
 #SIGMOID
 def sigmoid(x):
     ceiling = 100 #Against multiplication overflow
@@ -35,7 +34,7 @@ def dElu(x, alpha):
 #SOFTMAX
 def softmax(x):
     k = np.exp(x - np.max(x))
-    return k / np.sum(k, axis=0, keepdims=True)
+    return k / np.sum(k, axis=1, keepdims=True)
 
 def dSoftmax(x):
    pass 
