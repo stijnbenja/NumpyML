@@ -14,12 +14,12 @@ def split(X, Y, train_size=0.8):
     
     cut_place = int(train_size * X.shape[1])
     
-    x_train = X[ : , :cut_place ]
-    x_test  = X[ : , cut_place: ]
+    x_train = X[:, :cut_place]
+    x_test  = X[:, cut_place:]
     
-    try:
-        y_train = Y[ : , :cut_place ] #Generates error if it is a single array
-        y_test  = Y[ : , cut_place: ]
+    try:        
+        y_train = Y[:, :cut_place] #Generates error if it is a single array
+        y_test  = Y[:, cut_place:]
     except:
         y_train = Y[:cut_place]
         y_test  = Y[cut_place:]
