@@ -1,8 +1,5 @@
 import numpy as np
 
-'''
-
-'''
 
 #SIGMOID
 def sigmoid(x):
@@ -38,7 +35,7 @@ def dElu(x, alpha):
 #SOFTMAX
 def softmax(x):
     k = np.exp(x - np.max(x))
-    return k / np.sum(k)#, axis=1)
+    return k / np.sum(k, axis=0, keepdims=True)
 
 def dSoftmax(x):
-    
+   pass 
