@@ -21,8 +21,11 @@ def dTanh(x):
 def relu(x):
     np.max(0,x)
     
-def dRelu(x):
-    return 1 if (x > 0) else 0
+def dRelu(dA, Z):
+    dZ = np.array(dA, copy = True)
+    dZ[Z <= 0] = 0
+    return dZ
+    # return 1 if (x > 0) else 0
 
 #ELU
 def elu(x, alpha):
