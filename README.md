@@ -1,4 +1,4 @@
-# Creating a numpy neural net and deploying to JS as dashboard
+# Creating a numpy neural net and deploying it to JS as a dashboard
 ### Trying to whitebox a blackbox neural net by building it from scratch (also without sklearn)
 
 <br>
