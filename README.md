@@ -1,4 +1,4 @@
-# Creating a deep learning framework using only numpy
+# Creating a numpy neural net and deployinf to JS
 ### Trying to whitebox a blackbox neural net by building it from scratch (also without sklearn)
 
 <br>
